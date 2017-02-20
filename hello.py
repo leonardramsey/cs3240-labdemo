@@ -4,12 +4,10 @@ __author__="lr3hj"
 # CS3240 Lab 5
 # hello.py
 
-
+from helper import greetings
 
 # print("hello")
 
-def greetings(msg):
-    print(str(msg))
 
 if __name__ == "__main__":
-    greetings("hello")
+   greetings("hello")
